@@ -21,7 +21,7 @@
 ### Эксперименты:
 1. flash_threshold = 0.15, vehicle_threshold = 0.5: precision = 0.52, recall = 0.20 (вероятно большое количество снимков со вспышкой пропускается из-за высокого flash_threshold)
 2. flash_threshold = 0.05, vehicle_threshold = 0.5: precision = 0.67, recall = 0.38 (слишком много ложноотрицательных решений из-за низкого flash_threshold, вероятно стоит понизить vehicle_threshold)
-3. flash_threshold = 0.10, vehicle_threshold = 0.4: precision = 0.52, recall = 0.20
+3. flash_threshold = 0.10, vehicle_threshold = 0.4: precision = 0.37, recall = 0.37 
 
 ### Результаты:
 Маска, соответствующая снимку с RGB камеры, на котором обнаружена вспышка, относится к снимку с инфракрасной камеры. Если вспышка не обнаружена, маска, вероятно, относится к обоим снимкам пары [RGB снимок, инфракрасный снимок].
